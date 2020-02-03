@@ -1,0 +1,8 @@
+dictionery
+horse конь
+cat кот
+dog собака
+apple яблоко
+друг friend
+враг enemy
+авто car

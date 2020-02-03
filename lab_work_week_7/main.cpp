@@ -7,6 +7,7 @@
 
 using namespace std;
 int main() {
+	setlocale(LC_ALL,"rus");
 	Stack::Stack<int>a;
 	a.Add(5);
 	a.Add(10);
@@ -17,5 +18,8 @@ int main() {
 	List_two_dicert::list_two_direcktion<char>q;
 	q.Add_to_head('A');
 	binary_tree::binary_tree qaz;
+	qaz.InitDictionery();
+	string key = "враг";
+	qaz.Search(key);
 	return 0;
 }
